@@ -1,0 +1,10 @@
+dist/**
+**.min.js
+full/**
+lib/**
+node_modules
+reports
+*.test.js
+**/*.d.ts
+documentation/**
+.coverage

@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb component Breadcrumb.Item component should have is-active class 1`] = `
+<li
+  className="is-active"
+>
+  active item
+</li>
+`;
+
+exports[`Breadcrumb component Breadcrumb.Item component should render <li> 1`] = `
+<li>
+  item
+</li>
+`;
+
+exports[`Breadcrumb component Should be a Breadcrumb 1`] = `
+<nav
+  className="breadcrumb"
+>
+  <ul>
+    <li>
+      <a
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        href="/section"
+      >
+        Section
+      </a>
+    </li>
+    <li>
+      <a
+        href="/detail"
+      >
+        Details
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Breadcrumb component Should use inline style and custom size 1`] = `
+<nav
+  className="breadcrumb is-large"
+  style={
+    Object {
+      "marginTop": 10,
+    }
+  }
+>
+  <ul>
+    <li>
+      <a
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        href="/section"
+      >
+        Section
+      </a>
+    </li>
+    <li
+      className="is-active"
+    >
+      <a
+        href="/detail"
+      >
+        Details
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Breadcrumb component should use separator arrow 1`] = `
+<nav
+  className="breadcrumb has-arrow-separator"
+>
+  <ul>
+    <li>
+      <a
+        href="#1"
+      >
+        Storybook
+      </a>
+    </li>
+    <li>
+      <a
+        href="#2"
+      >
+        Breadcrumb
+      </a>
+    </li>
+    <li>
+      <a
+        href="#3"
+      >
+        Breadcrumb Types
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Breadcrumb component should use separator bullet 1`] = `
+<nav
+  className="breadcrumb has-bullet-separator"
+>
+  <ul>
+    <li>
+      <a
+        href="#1"
+      >
+        Storybook
+      </a>
+    </li>
+    <li>
+      <a
+        href="#2"
+      >
+        Breadcrumb
+      </a>
+    </li>
+    <li>
+      <a
+        href="#3"
+      >
+        Breadcrumb Types
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Breadcrumb component should use separator dot 1`] = `
+<nav
+  className="breadcrumb has-dot-separator"
+>
+  <ul>
+    <li>
+      <a
+        href="#1"
+      >
+        Storybook
+      </a>
+    </li>
+    <li>
+      <a
+        href="#2"
+      >
+        Breadcrumb
+      </a>
+    </li>
+    <li>
+      <a
+        href="#3"
+      >
+        Breadcrumb Types
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Breadcrumb component should use separator null 1`] = `
+<nav
+  className="breadcrumb"
+>
+  <ul>
+    <li>
+      <a
+        href="#1"
+      >
+        Storybook
+      </a>
+    </li>
+    <li>
+      <a
+        href="#2"
+      >
+        Breadcrumb
+      </a>
+    </li>
+    <li>
+      <a
+        href="#3"
+      >
+        Breadcrumb Types
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Breadcrumb component should use separator succeeds 1`] = `
+<nav
+  className="breadcrumb has-succeeds-separator"
+>
+  <ul>
+    <li>
+      <a
+        href="#1"
+      >
+        Storybook
+      </a>
+    </li>
+    <li>
+      <a
+        href="#2"
+      >
+        Breadcrumb
+      </a>
+    </li>
+    <li>
+      <a
+        href="#3"
+      >
+        Breadcrumb Types
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/components/toolbar/index.js"],"names":["Toolbar"],"mappings":";;;;;;;AAAA;;;;eAEeA,mB","sourcesContent":["import Toolbar from './toolbar';\n\nexport default Toolbar;\n"],"file":"index.js"}
