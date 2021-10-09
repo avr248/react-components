@@ -1,2 +1,2 @@
 # react-components
-React Components based on Bulma framework css
+React Components based on Bulma CSS framework
